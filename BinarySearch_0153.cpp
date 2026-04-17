@@ -106,3 +106,8 @@ void binarySearch()
         {
             cout << "\n [x] elemen" << x << "tidak ditemukan dalam array\n";
         }
+        cout << "ingin mencari lagi? (y/n): ";
+        cin >> ulang;
+
+    } while (ulang == 'y' || ulang == 'Y');
+}
