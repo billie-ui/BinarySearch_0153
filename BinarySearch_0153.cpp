@@ -88,7 +88,7 @@ void binarySearch()
 
             if (element[mid] == x)
             {
-                cout << "\n[√]Elemen " << x << "ditemukan pada indeks " << mid << "\n" endl;
+                cout << "\n[√]Elemen " << x << "ditemukan pada indeks " << mid << "\n";
                 return;
             }
             if (x < element[mid])
@@ -115,7 +115,7 @@ void binarySearch()
 int main()
 {
     input();
-    BubbleSortArray();
+    bubbleSortArray();
     display;
     binarySearch();
 }
